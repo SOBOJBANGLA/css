@@ -1,0 +1,73 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+    background-color: aqua;
+}
+#wrapper{border: 1px solid gray;
+    width:1050px;
+   
+    margin: 0 auto;
+
+}
+.banner{
+    background-color: rgb(40, 40, 245);
+    height: 120px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.brand{
+    background-image: url(../image/idb-bisew\ \(1\).png);
+    height: 102px;
+    width: 89px;
+    position: absolute;
+}
+.search{
+    position: absolute;
+    right: 180px;
+}
+.navbar {background-color: yellowgreen;
+    height: 20px;
+    padding: 15px;
+    ul {list-style-type: none;
+      li {display: inline;
+        a {padding: 15px;
+            text-decoration: none;
+            color: white;
+  
+        }
+      }
+    }
+  }
+  a:hover{background-color: brown;}
+
+  .leftbar{padding: 40px;
+    width: 20%;
+    border-right: 1px solid gray;
+    height: 500px;
+    float: left;
+    line-height: 40px;
+    background-color: azure;
+
+}
+ul{
+    list-style-type: none;
+}
+a{padding: 20px;
+    text-decoration: none;
+}
+a:hover{background-color: brown;}
+.content{
+    width: 68%;
+    padding: 20px;
+    float: right;
+    margin-left: 5px;
+    
+}
+.footer{clear: both;
+    padding: 15px;
+    text-align: center;
+background-color: yellowgreen;
+}
+
