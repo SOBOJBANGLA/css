@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.wrapper{
+    border: 1px solid gray;
+    width: 850px;
+    
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 255);
+    height: 150px;
+    align-items: center;
+}
+.logo{
+    background-image: url(../image/3.png);
+    width: 90px;
+    height: 100px;
+}
+.brand{
+    color: white;
+}
+.navbar{
+    display: flex;
+    background-color: azure;
+}
+.navbar div{
+    padding: 5px;
+    margin: 10px;
+}
+.navbar div a {
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    background-color: rgb(3, 3, 245);
+    padding: 15px;
+}
+.container{display: flex;}
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 15px;
+    border-right: 1px solid gray;
+    height: 700px;
+    background-color: rgb(216, 219, 219);
+    border: 1px solid gray;
+    display: flex;
+}
+
+.leftbar div{
+    padding: 15px;
+    margin: 10px;
+}
+.leftbar div a{
+    text-decoration: none;
+    color: black;
+}
+.sea input{
+    width: 150px;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+
+.content{
+    background-color: white;
+    width: 80%;
+    padding: 15px ;
+    
+}
+.content h3{ 
+    border: 1px solid gray;
+    height: 20px;
+}
+.footer{
+    background-color:rgb(26, 26, 255) ;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
